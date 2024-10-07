@@ -57,5 +57,39 @@ Esta pantalla muestra la **lista de Pokémon que el usuario ha marcado como favo
 
 <img src="https://github.com/user-attachments/assets/b18b5017-c400-4f08-a23c-2f6a449ab4b8" alt="Lista de Pokémon Favoritos" width="300"/>
 
+## Dependencias Utilizadas en el Proyecto
+
+En este proyecto se han utilizado varias dependencias para garantizar un funcionamiento óptimo y eficiente de la aplicación. A continuación, se describen las dependencias más relevantes y para qué se utilizan:
+
+### Implementaciones Clave
+
+```gradle
+implementation libs.androidx.core.ktx
+implementation libs.androidx.appcompat
+implementation libs.material
+implementation libs.androidx.activity
+implementation libs.androidx.constraintlayout
+implementation libs.retrofit
+implementation libs.retrofit.gson
+implementation libs.androidx.lifecycle.viewmodel.ktx
+implementation libs.androidx.lifecycle.livedata.ktx
+implementation libs.recyclerview
+implementation libs.okhttp.logging
+implementation libs.glide
+implementation libs.androidx.junit.ktx
+implementation libs.androidx.lifecycle.service
+implementation libs.androidx.navigation.fragment.ktx
+implementation libs.androidx.navigation.ui.ktx
+kapt libs.glide.compiler
+
+// Room usando una variable para la versión
+def room_version = "2.5.1"
+implementation "androidx.room:room-runtime:$room_version"
+kapt "androidx.room:room-compiler:$room_version"
+implementation "androidx.room:room-ktx:$room_version"
+
+testImplementation 'junit:junit:4.13.2'
+androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
 
