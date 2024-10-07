@@ -1,6 +1,14 @@
 # Guía de Desarrollo de la App
 
-A continuación se presentan las distintas pantallas y funcionalidades de la aplicación, acompañadas de capturas de pantalla que ilustran cada paso.
+Este proyecto fue desarrollado utilizando **Android Studio Jellyfish 2023.3.1** y **Java 22.0.1** (2024-04-16). La aplicación está configurada con un **minSdk** de 24 y un **targetSdk** de 34, lo que asegura compatibilidad con una amplia gama de dispositivos y la posibilidad de aprovechar las últimas características de Android.
+
+## Configuraciones Clave
+
+- **minSdk 24**: La aplicación requiere un mínimo de Android 7.0 (Nougat) para ejecutarse, lo que garantiza compatibilidad con dispositivos desde esa versión en adelante.
+- **targetSdk 34**: Se ha configurado la aplicación para apuntar a Android 14, lo que permite aprovechar las características más recientes del sistema operativo Android.
+- **Android Studio Jellyfish 2023.3.1**: Se utilizó esta versión de Android Studio para el desarrollo del proyecto, asegurando el uso de las últimas herramientas de desarrollo de Android.
+- **Java 22.0.1 (2024-04-16)**: La versión de Java utilizada es la **22.0.1**, asegurando compatibilidad con las librerías y las funcionalidades del sistema.
+
 
 ## 1. Icono de la aplicación
 Esta es la imagen del **icono de la aplicación**, el cual será mostrado en el dispositivo móvil al momento de instalar la app.
