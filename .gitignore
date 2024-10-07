@@ -1,0 +1,120 @@
+### General ###
+# Gradle
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+*.swp
+*.swo
+*.DS_Store
+*.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/*.iml
+*.iml
+*.ipr
+
+# Kotlin
+*.class
+*.kotlin_metadata
+*.kotlin_module
+
+# Android Studio
+.idea/
+.cache/
+*.hprof
+
+# Android specific
+*.apk
+*.ap_
+*.dex
+*.class
+*.so
+*.jar
+*.war
+*.ear
+*.rs
+*.js.map
+*.csv
+*.vcf
+*.dat
+
+# IntelliJ IDEA files
+out/
+
+# Ignore Gradle specific files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio
+.idea/caches/
+.idea/libraries/
+.idea/shelf/
+.idea/workspace.xml
+.idea/modules.xml
+.idea/assetWizardSettings.xml
+.idea/misc.xml
+.idea/dictionaries/
+.idea/vcs.xml
+*.iml
+*.hprof
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+
+# Keystore files (do not include in version control)
+*.jks
+*.keystore
+
+# Google Services JSON
+google-services.json
+google-services.json.*
+
+# Crashlytics
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Local IntelliJ IDEA stuff
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/misc.xml
+.idea/modules.xml
+.idea/*.iml
+.idea/modules
+.idea/libraries
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+cxx/
+
+# Other IDEs and configurations
+.idea/
+.vscode/
+
+### macOS ###
+# General macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.tgz
+*.bz2
+
+# Files that might appear as they are seen as resource forks
+.Spotlight-V100
+.Trashes
